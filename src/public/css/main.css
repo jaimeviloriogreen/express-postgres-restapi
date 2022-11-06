@@ -1,0 +1,47 @@
+@import "./base.css";
+
+.main{
+    width: 90%;
+    max-width: 62.5rem;
+    margin: 3.125rem auto;
+}
+.main-title{
+    text-align: center;
+    font-weight: 600;
+}
+hr{
+    margin: 4rem 0rem;
+    border: .125rem solid var(--color12);
+    border-radius: .25rem;
+}
+.methods{
+    display: inline-flex;
+    flex-direction: column;
+}
+h3{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 500;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 1.5rem;
+    color: var(--color2);
+    border-bottom: 2px solid var(--color10);
+    font-size: 1.35rem;
+}
+.img-section{
+    width: 100%;
+    height: calc(100vh - 6.5rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    width: 50rem;
+}
+span{
+    color: var(--color13);
+    font-weight: 600;
+}
